@@ -1,0 +1,52 @@
+<html> 
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MattChat</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.global/9eae5660-40bf-49c5-9d1a-ba9b95b0e97c/apple-touch-icon.png?v=1663592899340">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.global/9eae5660-40bf-49c5-9d1a-ba9b95b0e97c/favicon-32x32.png?v=1663592907163">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.global/9eae5660-40bf-49c5-9d1a-ba9b95b0e97c/favicon-16x16.png?v=1663592904462">
+    <link rel="mask-icon" href="https://cdn.glitch.global/9eae5660-40bf-49c5-9d1a-ba9b95b0e97c/safari-pinned-tab.svg?v=1663592916457" color="#5bbad5">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--https://www.youtube.com/watch?v=dQw4w9WgXcQ-->
+    <!--ninja{@1wAys_C43cK_tHe_HTML}-->
+  </head>
+
+  <body> 
+    <header>     
+      <img id="ProfilePic" src="https://cdn.glitch.global/9eae5660-40bf-49c5-9d1a-ba9b95b0e97c/NoUser.png?v=1664684381473" class="avatar">
+      <h1 class="HeaderTitle">MattChat</h1>
+    </header>
+    <main>
+      <div id="PostArea"></div>
+      <div id="UsersArea">
+        <div class="search-container">
+          <input type="text" placeholder="Search Users.." id="SearchUsers">
+          <button type="submit" id="FindUsers">Submit</button>
+        </div>
+        <div id="UsersList"></div>
+      </div>
+      <div class="Modal" id="ChatModal">
+        <div class="Modal-Content" id="ChatModalContent"></div>
+      </div>
+    </main>
+    <footer>
+      <div id="footermenu">
+          <button id="ChatButton">Chat</button>
+          <button id="LoginButton">Login</button>
+          <button id="LogoutButton">Logout</button>
+          <button id="SignUpButton">Sign Up</button>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
